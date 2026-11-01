@@ -1,5 +1,12 @@
 # OWL: Orbit Wars (reinforcement) Learning
 
+## Squares in Squares CPU engine
+
+This fork adds an independent [Squares in Squares engine](squares-engine/README.md)
+on branch `squares-engine-cpu`. It exposes typed reset/step, packing geometry and a
+JSONL interface, with no GPU or training dependencies. Build and verify it using
+the standalone crate's instructions; the Orbit Wars workflows below remain separate.
+
 ## Setup instructions
 
 1. Install prerequisites:
